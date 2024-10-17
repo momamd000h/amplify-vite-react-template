@@ -63,3 +63,32 @@ a {
   font-weight: 800;
   text-decoration: none;
 }
+/**************************/
+
+/* Styles for screens larger than 600px */
+body {
+  font-size: 16px;
+  padding: 20px;
+}
+
+/* Styles for screens up to 600px (mobile) */
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 14px; /* Adjust font size */
+    padding: 10px;
+  }
+
+  .header {
+    flex-direction: column; /* Stack items vertically on small screens */
+    text-align: center;
+  }
+
+  .logo {
+    height: 50px; /* Make the logo smaller on mobile */
+  }
+
+  button {
+    width: 100%; /* Full-width buttons on mobile */
+    font-size: 1rem;
+  }
+}

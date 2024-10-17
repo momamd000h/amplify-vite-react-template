@@ -19,7 +19,7 @@ function App() {
       <div>
         <header className="header">
           {" "}
-          {<img src="/Icon.png" className="logo" alt="Co Tune Logo" />}
+          {<img src="./Icon.png" className="logo" alt="Co Tune Logo" />}
           <h1 className="email"> {user?.signInDetails?.loginId}</h1>
           <div className="signout">
             <button onClick={signOut}>Sign out</button>

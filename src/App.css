@@ -78,3 +78,37 @@
 .bt:hover {
   background-color: #59565d; /* Darker shade on hover */
 }
+/* Mobile Styles */
+@media only screen and (max-width: 600px) {
+  .header {
+    margin-top: 0px;
+    position: relative;
+    display: block; /* Display header in block format */
+    text-align: center;
+    height: 110px; /* Adjust header height */
+  }
+
+  .logo {
+    height: 50px; /* Smaller logo for mobile */
+  }
+
+  .home h1 {
+    margin: 0px;
+    margin-top: 20px;
+    font-size: 2rem; /* Smaller heading for mobile */
+  }
+
+  .bt {
+    margin: 5px;
+    font-size: 1rem; /* Adjust button font size */
+    width: 80%; /* Reduce button width for mobile */
+  }
+}
+
+.signout {
+  margin-right: 10px; /* Space between signout and email */
+}
+
+.email {
+  display: block; /* Keep email as a block */
+}
