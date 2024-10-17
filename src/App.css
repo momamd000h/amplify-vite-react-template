@@ -40,3 +40,59 @@
 .read-the-docs {
   color: #888;
 }
+/**************************/
+
+/* src/components/Navbar/Navbar.css */
+.header {
+  display: flex; /* Use flexbox for alignment */
+  justify-content: center; /* Center the logo */
+  align-items: center; /* Center items vertically */
+  margin: 20px; /* Add padding around the header */
+  background-color: #ffffff00; /* White background */
+  border-bottom: 2px solid #ffffff00; /* Black line at the bottom */
+  position: fixed; /* Fix the navbar to the top */
+  top: 0; /* Position it at the top */
+  left: 0; /* Align it to the left */
+  right: 0; /* Align it to the right */
+  z-index: 1000; /* Ensure it stays above other content */
+}
+
+.logo {
+  margin: 0 auto; /* Center the logo */
+
+  width: 200px; /* Set a width for the logo */
+}
+
+/* Additional padding for body content to account for the fixed navbar */
+body {
+  padding-top: 80px; /* Adjust this value based on your navbar height */
+}
+.signout {
+  margin-left: auto; /* Remove or adjust the margin */
+}
+.logo-container {
+  flex: 1; /* Allow the logo container to take up space */
+  display: flex; /* Use flexbox for alignment */
+  justify-content: center; /* Center the logo */
+}
+.email {
+  font-size: medium;
+}
+/***********************
+/* src/Home.css */
+
+.home li:hover {
+  transform: translateY(-3px);
+  cursor: pointer;
+  text-decoration: underline;
+}
+.home h1 {
+  color: #2c3e50; /* Darker color for the heading for better contrast */
+  font-size: 3rem; /* Increased font size for emphasis */
+  margin-bottom: 200px; /* Space below the heading */
+}
+.home p {
+  font-size: 20px; /* Increased font size for better readability */
+  color: #34495e; /* Slightly lighter dark color for text */
+  margin-bottom: 30px; /* Space below the paragraph */
+}
